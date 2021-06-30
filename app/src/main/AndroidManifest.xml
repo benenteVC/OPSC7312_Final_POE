@@ -21,7 +21,7 @@
         android:theme="@style/Theme.OPSC7312_Final_POE">
         <activity android:name=".distance_calc"/>
         <activity android:name=".home_page" />
-        <activity android:name=".login" />
+        <activity android:name=".terms_conditions" />
         <activity android:name=".settings" />
         <activity android:name=".registration" />
         <activity android:name=".fuelcalc" />
@@ -39,7 +39,7 @@
             android:value="AIzaSyDRL-2sYAFH5W51gEqrnSt0SwZYtCwbPs4" />
 
 
-        <activity android:name=".terms_conditions" >
+        <activity android:name=".login" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
