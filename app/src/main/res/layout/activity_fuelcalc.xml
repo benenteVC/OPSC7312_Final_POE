@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluebackgroundcolor"
+    tools:context=".fuelcalc">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/fueldivider"
+        tools:ignore="MissingConstraints"
+        tools:layout_conversion_absoluteHeight="300dp"
+        tools:layout_conversion_absoluteWidth="511dp"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="-100dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+
+    <TextView
+        android:id="@+id/ppl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Price per Litre"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/priceltr"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:id="@+id/numberpeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Number of People"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/numppl"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Total Distance Travelled"
+        android:inputType="numberSigned"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/disancetravelled"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:id="@+id/average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Average Fuel Consumption"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/consumption"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_marginTop="15dp"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="calculate"
+        android:textColor="@color/black" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/amount"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="AMOUNT PER PERSON"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/Rvalue"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_Backbutton"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="BACK"
+        android:textColor="@color/black" />
+
+
+
+</LinearLayout>

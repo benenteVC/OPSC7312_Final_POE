@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OPSC7312_Final_POE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="dialog_message">Total Per Person is :</string>
+    <string name="dialog_title">Amount</string>
+    <string name="agree">Agree</string>
+</resources>

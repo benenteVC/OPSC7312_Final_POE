@@ -1,0 +1,2 @@
+rootProject.name = "OPSC7312_Final_POE"
+include ':app'

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/bluebackgroundcolor"
+    tools:context=".registration">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        app:srcCompat="@drawable/maplogo"
+        tools:ignore="MissingConstraints"
+        tools:layout_conversion_absoluteHeight="300dp"
+        tools:layout_conversion_absoluteWidth="511dp"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="-100dp" />
+
+    <TextView
+        android:id="@+id/txt_firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="first name"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_firstname"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:ems="10"
+
+        />
+
+    <TextView
+        android:id="@+id/surname"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="surname"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edt_surname"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        />
+
+    <TextView
+        android:id="@+id/emailView"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="email address"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edt_emailaddress"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:id="@+id/pswrdView"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="password"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_Regbutton"
+        android:layout_marginTop="1dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="REGISTER"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_Backbutton"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="BACK"
+        android:textColor="@color/black" />
+    
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#052196F3"
+        android:visibility="invisible" />
+
+</LinearLayout>
+
+
+
+

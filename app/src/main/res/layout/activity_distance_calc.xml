@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:gravity="center_horizontal"
+    tools:context=".distance_calc"
+    android:orientation="vertical"
+    android:background="@color/bluebackgroundcolor">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/distancecalc"
+        tools:ignore="MissingConstraints"
+        tools:layout_conversion_absoluteHeight="300dp"
+        tools:layout_conversion_absoluteWidth="511dp"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="-100dp"></ImageView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black"
+        />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_source"
+        android:hint="Enter Source Location"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"/>
+
+
+    <EditText
+        android:id="@+id/et_destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="Enter Destination Location"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_Backbutton"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="BACK"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

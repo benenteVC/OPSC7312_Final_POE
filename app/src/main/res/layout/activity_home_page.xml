@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/bluebackgroundcolor"
+    tools:context=".home_page">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        app:srcCompat="@drawable/mapslogo"
+        tools:ignore="MissingConstraints"
+        tools:layout_conversion_absoluteHeight="300dp"
+        tools:layout_conversion_absoluteWidth="511dp"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="-100dp" />
+
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="start my journey"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btn_Fuelcalc"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="fuel divider"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_DistanceCalc"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="Distance Calculator"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_Settings"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="SETTINGS"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/btn_Logout"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="Logout"
+        android:textColor="@color/black" />
+
+
+
+
+
+
+</LinearLayout>

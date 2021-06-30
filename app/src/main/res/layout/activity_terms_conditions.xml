@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".settings"
+    android:background="@color/bluebackgroundcolor">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/termsandconditions"
+        tools:ignore="MissingConstraints"
+        tools:layout_conversion_absoluteHeight="300dp"
+        tools:layout_conversion_absoluteWidth="511dp"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="-100dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black"
+        />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:text="By using this app you must agree to all terms and conditions"
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black"
+        />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="1. You will Obey the speed limit. "
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="2. You will not use a cell phones when driving. "
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="3.  All vehicle occupants wear a seat belt. "
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="4. Your vehicle is in a roadworthy condition. "
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="5. You will not drink and drive. "
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="6. You acknowledge that Destination Station in not responsible for any misconduct when using the application "
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+
+
+    <CheckBox
+        android:id="@+id/checkbox_agree"
+        android:layout_width="88dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/agree"
+        tools:ignore="OnClick" />
+
+
+    <Button
+        android:id="@+id/btn_Proceed"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="Proceed to Map"
+        android:visibility="gone"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_Backbutton"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="0dp"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:backgroundTint="#ffff9f"
+        android:text="BACK"
+        android:textColor="@color/black" />
+
+
+
+</LinearLayout>
